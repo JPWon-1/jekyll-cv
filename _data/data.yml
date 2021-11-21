@@ -62,11 +62,11 @@ experience:
       <p><b>둘 째, 개발, 배포 과정에서의 git-flow를 재정의 하였습니다.</b><br>
       프로젝트에서의 잘못된 git-flow운영을 보여주고 있어서 이를 개선하고자 팀원들과 토론하였고 더 나은 프로세스로 발전시켰습니다.</p>
 
-      <a href="/assets/pdf/Querydsl_적용하기.pdf" download>
+      <a href="https://jpwon-1.github.io/resume/assets/pdf/Querydsl_적용하기.pdf" download>
         <i class="feather-16" data-feather="link"></i>Querydsl 적용하기
       </a>
       <br>
-      <a href="/assets/pdf/git-flow 구성.pdf" download>
+      <a href="https://jpwon-1.github.io/resume/assets/pdf/git-flow 구성.pdf" download>
         <i class="feather-16" data-feather="link"></i>git-flow 재구성
       </a>
 
