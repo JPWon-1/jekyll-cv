@@ -1,28 +1,5 @@
-# CV jekyll theme
+## 안녕하세요. 주니어 개발자 원종필입니다.
 
-Free theme for the creation of your CV. View demo [here](https://jekyll-cv.stavrospanakakis.com/).
+현재 Java와 Spring에 관심을 가지고 공부하고 있습니다.
 
-## Features
-- Lightweight
-- Free & Open Source
-- Mobile Responsive
-- Dark Mode Support
-
-
-## Preview
-![Preview](./preview.png)
-
-## Installation
-- [Fork](https://github.com/stavrospanakakis/jekyll-cv/fork) the repository
-- Create a ```gh-pages``` branch
-- Go to Settings and select ```gh-pages``` as Github Pages source
-- Replace dummy data at ```_data/data.yml``` and ```_config.yml```
-- You're done!
-
-Go to https://username.github.io/jekyll-cv/
-
-## Contributing 
-- Feel free to open issues and create pull requests for new features or skins
-
-## License
-- [MIT](./LICENSE)
+더 나은 사람, 더 나은 개발자가 되기 위해 노력하고 있습니다.
