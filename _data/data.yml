@@ -1,4 +1,4 @@
-name: Won JONG PIL
+name: 원종필 | WON JONGPIL
 support_dark_mode: true
 fork: false
 
@@ -7,16 +7,6 @@ contact:
   email: rocknzero1@gmail.com
   github: JPWon-1
   blog: https://velog.io/@rocknzero
-
-
-education:
-  - degree: 프레임워크 전문 개발자 양성과정
-    time: 2020.01-2020.07
-    university: Bitcamp
-
-  - degree: 토목공학과 학사
-    time: 2010-2018
-    university: 서경대학교
 
 skills:
   - category: 
@@ -28,66 +18,93 @@ skills:
 
 # Profile
 profile: |
-  <p>안녕하세요. 백엔드 개발자 원종필입니다.<br>
-  Java와 Spring에 관심을 가지고 공부하고 있습니다.<p>
-  <p>더 나은 개발자가 되기 위해 노력하고 있습니다.</p>
+  <p>안녕하세요. 웹 백엔드 개발자 원종필입니다.<p/>
+  <p>Java, Spring, Oracle, Redis, AWS, Git 등을 사용하여 누적회원수 350만명의 커머스 쇼핑몰을 운영,개발하고 있으며 확장성과 유지 보수성이 높은 백엔드 구축을 위해 언제나 노력하고 있습니다.</p>
+  <p>서비스 운영을 하면서 적극적이고 능동적인 커뮤니케이션이 문제를 해결하기 위한 방법이 되는것을 많이 경험하였습니다. 
+  이러한 과정에서 느낀점은 결국 비즈니스를 해결하기 위해 어떻게 커뮤니케이션을 하느냐가 가장 중요하다 입니다. 
+  
+  <p>앞으로 문제해결을 위해 능동적이고 적극적인 커뮤니케이션을 하는 개발자가 되기 위해 꾸준히 학습하고, 경험해 보겠습니다.</p>
+
 
 # Experience
 experience:
-  - role: Java Backend Developer
-    time: 2022.02-Present
+  - role: Backend Developer
+    time: 2022.02 ~ 현재
+    current: true
+    last: false
     company: Purple IO
+    companyInfo: 350만 회원, 약 40여개의 자사 브랜드와 수백개의 업체가 입점해있는 커머스몰을 운영하는 스타트업
     details: |
-      <p>퍼플아이오 백오피스 개발파트에서 백엔드 개발을 하고 있습니다.</p>
-      <p>하이브리스라는 전자상거래 솔루션 서비스를 이용한 웹개발을 하고 있으며 현재 코오롱몰의 서비스 유지보수를 하고 있습니다.</p>
-      <p>하이브리스를 통해 자바의 추상화 모델과 데이터베이스에 대해 알게 되었고 이를 통해 ORM에 대해 더 공부할 수 있었습니다.</p>
-
+      - 코오롱몰 백오피스 운영 및 개발
+      <br>
+      - 레거시 청산 및 기존 비즈니스 로직 유지보수
+      <br>
+      - Oracle / Hybris 데이터베이스 유지보수 및 관리
 
     technologies_used: | 
-      Java, Spring, Hybris
+      Java, Spring, Hybris, Git
   
-  - role: Java Backend Developer
-    time: 2020.11-2022.02
+  - role: Backend Developer
+    time: 2020.11 ~ 2022.02
+    current: false
+    last: true
     company: ValuelinkU
+    companyInfo: 해운물류 커머셜 플랫폼 서비스 스타트업
     details: |
-      <p>밸류링크유 플랫폼 사이트 유지보수, 개발을 맡았습니다. </p>
-      
-      <p>제가 프로젝트에 기여한 부분으로는</p>
-
-      <p><b>첫 째, Querydsl Library를 적용하였습니다.</b><br>
-      동적쿼리를 제어하는데에 있어 Specification을 해석하기가 어려웠고
-      이에 따라 잘못된 사용이 빈번하게 일어나고 있었기에 이를 새롭게 만들 필요가 있었기 때문입니다.</p>
-
-      <p><b>둘 째, 개발, 배포 과정에서의 git-flow를 재정의 하였습니다.</b><br>
-      프로젝트에서의 잘못된 git-flow운영을 보여주고 있어서 이를 개선하고자 팀원들과 토론하였고 더 나은 프로세스로 발전시켰습니다.</p>
-
+      - 밸류링크유 플랫폼 사이트 운영 및 개발
+      <br>
+      - querydsl 적용
       <a href="https://jpwon-1.github.io/resume/assets/pdf/Querydsl_적용하기.pdf" download>
-        <i class="feather-16" data-feather="link"></i>Querydsl 적용하기
+        <i class="feather-16" data-feather="link"></i>querydsl적용
       </a>
       <br>
+      - git-flow 구성
       <a href="https://jpwon-1.github.io/resume/assets/pdf/git-flow 구성.pdf" download>
-        <i class="feather-16" data-feather="link"></i>git-flow 재구성
+        <i class="feather-16" data-feather="link"></i>git-flow구성
       </a>
-
-      <p>이 외에도 어떻게 하면 프로젝트와 팀에 더 기여할 수 있는지 방법을 고민하고 있습니다.</p>
 
     technologies_used: | 
       Java, Spring, Javascript, jQuery, Git
   
 projects:
-  - title: <b>스프링 게시판</b>
-    # link: https://www.historytoday.kr
+  - title: 전사 등급 개편 작업
+    time: 2024.06 ~ 2024.07
+    last: false
     details: |
-      <br>- 사용 기술 : Spring boot, Java, AWS, javascript, git actions
-      <br>- <a class="project-link" href="https://github.com/JPWon-1/spring_awesome_post" target="_blank">Github<i class="feather-16" data-feather="external-link"></i></a>
-      <br>
-      <p>스프링 부트를 이용한 개발과 배포를 경험해보고 싶어 진행한 사이드 프로젝트 입니다.
-      Spring-security를 경험해보았고, 구글과 네이버 아이디 로그인을 연동해보았습니다.
-      </p>
-      <p>또한 vanilla js의 이해도를 높이고 싶어서 의도적으로 jQuery를 제외하였고 나중에 Thymeleaf가 아닌 Vue.js를 통한 화면 렌더링을 목표로 하고 있습니다.</p>
-      <p>DB와 배포환경은 AWS의 EC2, Oracle RDB, S3 그리고 git-actions를 사용하였습니다.
-        AWS에서 제공해주는 서비스들을 이용하여 가상컴퓨터에 나의 프로젝트를 빌드하여 S3 Bucket을 이용한 앱 배포 자동화를 구축하였습니다.
-        이 과정에서 자동화 툴로는 github에서 제공해주는 git-actions를 사용하였습니다.
-        이를 통해 CI/CD 자동화 프로세스를 경험할 수 있었습니다.
-      </p>
+      - 하나의 등급 시스템으로 전사 브랜드의 등급을 관리하는 OLO 멤버십 개발<br>
+      - 기존 등급 시스템의 영향도 파악 및 기존 API의 사용처 확인과 새로운 등급 API개발<br>
+      - 확장을 고려한 데이터베이스 설계의 중요성을 깨닫게 됨
+  
+
+  - title: 제휴사 정산 API 개발
+    time: 2024.04 ~ 2024.06
+    last: false
+    details: |
+      - 매월 초 수기로 제휴사의 주문내역을 정산하던 작업의 일부분을 자동화 하고자 API 시스템 개발<br>
+      - spring cloud, kotlin, lambda를 이용한 서버리스 환경으로 외부 api로부터 데이터를 받아오고 다시 그 데이터를 기존의 시스템에 입력하는 시스템 구축<br>
+      - 수기작업에서 발생되던 휴먼에러를 줄일 수 있었으며 서버리스 환경에서의 개발을 경험해봄
+  
+  - title: 관심상품 저장로직 개선
+    time: 2023.07 ~ 2023.9
+    last: false
+    details: |
+      - 와탭 트랜잭션 분석 중 관심상품 저장 로직 병목현상 발견되어 개선함<br>
+      - 저장상품의 개수만큼 반복문을 돌던 레거시 코드 정리 및 redis 저장 로직 개선<br>
+      - 58초가 걸리던 고객과 동일한 데이터를 가지고 테스트시 0.3초로 속도 개선<br>
+      - 불필요 데이터 제거 정리 및 삭제 배치 생성
+
+  - title: 백오피스 XSS 필터, Referer 체크 필터 적용
+    time: 2023.01 ~ 2023.03
+    last: false
+    details: |
+      - 스크립트 공격 방어목적으로 네이버 오픈 소스 루시 필터 적용을 하였음.<br>
+      - 그룹사와 직접 접근하는 경우에만 허용을 해주는 referer 체크 필터를 만들어 제3 페이지에 노출되더라도 접근을 최소화 하려는 목적으로 만들었다.
+
+  - title: 엠벌크 유지보수 / 운영
+    time: 2022.06 ~ 2023.12
+    last: true
+    details: |
+      - 데이터 ETL을 위한 오픈소스 엠벌크 유지보수 및 운영<br>
+      - 10분이 걸리는 빌드와 배포과정을 1분으로 단축<br>
+      - ETL 시스템을 처음 관리해보면서 데이터 품질관리를 경험해봄
       

@@ -7,13 +7,26 @@
             @include sub-header;
         }
         .company {
+            .name {
+                @include sub-header;
+                color: var(--fg-color-title-sm);
+            }
             @include body-text;
             font-weight: bold;
-            .time {
-                float: right;
-                color: var(--fg-color-title-sm);
-                font-weight: 100;
-            }
+        }
+        .bold {
+            color: var(--fg-color-body);
+            font-weight: 500;
+        }
+        .time {
+            float: right;
+            color: var(--fg-color-title-sm);
+            font-weight: 100;
+        }
+        .time-bold {
+            float: right;
+            color: var(--fg-color-title-sm);
+            font-weight: bold;
         }
         .details {
             @include body-text;
@@ -21,5 +34,18 @@
         .technologies {
             @include body-text;
         }
+        a {
+            text-decoration: none;
+            padding-top: 4px;
+            padding-left: 4px;
+            @include body-text;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+    hr {
+        border-width:1px 0 0 0;
+        color: var(--fg-color-dark);
     }
 }

@@ -4,11 +4,23 @@
     }
     .project {
         margin-bottom: 20px;
+        .project-title {
+            color: var(--fg-color-title-sm);
+        }
         .project-link {
             @include body-text;
         }
         .details {
             @include body-text;
         }
+        .time {
+            float: right;
+            color: var(--fg-color-title-sm);
+            font-weight: 100;
+        }
+    }
+    hr {
+        border-width:1px 0 0 0;
+        color: var(--fg-color-dark);
     }
 }
